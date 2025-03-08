@@ -50,21 +50,16 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
+          <div class="navbar-nav text-center ms-auto">
             <a
-              class="nav-link"
+              class="nav-link navItem pr-5"
               aria-current="page"
-              id="nav-link"
               href="#Why Choose US"
               >Why choose Us ?</a
             >
-            <a class="nav-link" id="nav-link" href="#Explore Menu"
-              >Explore Menu</a
-            >
-            <a class="nav-link" id="nav-link" href="#Delivery&Payment"
-              >Delivery & Payment</a
-            >
-            <a class="nav-link" id="nav-link" href="#Follow US">Follow Us</a>
+            <a class="nav-link" href="#Explore Menu">Explore Menu</a>
+            <a class="nav-link" href="#Delivery&Payment">Delivery & Payment</a>
+            <a class="nav-link" href="#Follow US">Follow Us</a>
           </div>
         </div>
       </div>
@@ -422,7 +417,7 @@
       </div>
     </div>
 
-    <!---->
+    <!--Thanking Customer Section-->
     <div class="thanking-customers-section pt-5 pb-5">
       <div class="container">
         <div class="row">
@@ -442,7 +437,52 @@
               />
             </div>
             <div>
-              <button class="custom-button">Redeem Gift</button>
+              <button
+                class="custom-button"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Redeem Gift
+              </button>
+            </div>
+            <!--modal-->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="exampleModalLabel">
+                      Redeem Gift Voucher
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png"
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-12 col-md-5 d-none d-md-block">
